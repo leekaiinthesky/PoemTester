@@ -13,6 +13,7 @@
 		2A3004A81B04A5F400B5B420 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3004A71B04A5F400B5B420 /* Images.xcassets */; };
 		2A3004AB1B04A5F400B5B420 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A3004A91B04A5F400B5B420 /* LaunchScreen.xib */; };
 		2A3004B71B04A5F400B5B420 /* PoemTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3004B61B04A5F400B5B420 /* PoemTesterTests.swift */; };
+		2A3004C11B04A71900B5B420 /* PoemTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3004C01B04A71900B5B420 /* PoemTexts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2A3004B01B04A5F400B5B420 /* PoemTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A3004B51B04A5F400B5B420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A3004B61B04A5F400B5B420 /* PoemTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoemTesterTests.swift; sourceTree = "<group>"; };
+		2A3004C01B04A71900B5B420 /* PoemTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemTexts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2A3004A01B04A5F400B5B420 /* AppDelegate.swift */,
 				2A3004A21B04A5F400B5B420 /* ViewController.swift */,
+				2A3004C01B04A71900B5B420 /* PoemTexts.swift */,
 				2A3004A41B04A5F400B5B420 /* Main.storyboard */,
 				2A3004A71B04A5F400B5B420 /* Images.xcassets */,
 				2A3004A91B04A5F400B5B420 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3004A31B04A5F400B5B420 /* ViewController.swift in Sources */,
+				2A3004C11B04A71900B5B420 /* PoemTexts.swift in Sources */,
 				2A3004A11B04A5F400B5B420 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PoemTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PoemTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +417,7 @@
 				2A3004BC1B04A5F400B5B420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A3004BD1B04A5F400B5B420 /* Build configuration list for PBXNativeTarget "PoemTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				2A3004BF1B04A5F400B5B420 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
